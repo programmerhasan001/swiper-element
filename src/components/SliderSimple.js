@@ -5,7 +5,7 @@ export default function SliderSimple() {
     useEffect(() => {
         new Swiper('.my-swiper', {
             loop: true,
-            slidesPerView: "auto",
+            slidesPerView: "3",
         })
     }, [])
     return (
