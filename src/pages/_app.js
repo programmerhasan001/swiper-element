@@ -1,7 +1,5 @@
-// import function to register Swiper custom elements
-import { register } from 'swiper/element/bundle';
-// register Swiper custom elements
-register();
+// Import Swiper styles
+import 'swiper/css';
 import '@/styles/globals.css'
 
 export default function App({ Component, pageProps }) {
